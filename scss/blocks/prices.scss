@@ -1,0 +1,187 @@
+@import '../variables';
+@import '../mixins';
+
+.prices {
+  width: 100%;
+  position: relative;
+  margin: 0 auto;
+  padding: 75px 0 49px 0;
+  background-image: linear-gradient(13deg, #ff8f5a 0%, #ff2f96 99%, #ff2f96 100%);
+  color: $white;
+
+  @media (max-width: 1200px) {
+    padding: 75px 0 53px 0;
+  }
+
+  @media (max-width: 1023px) {
+    width: 100%;
+    min-width: 320px;
+    padding-top: 42px;
+    padding-bottom: 38px;
+  }
+}
+
+.prices__elements {
+  transform-origin: 0 0;
+}
+
+.prices__elements--braces {
+  transform: translateX(calc(50% + 775px)) translateY(265px) rotate(-19deg);
+  font-size: 50px;
+
+  @media (max-width: 1830px) {
+    display: none;
+  }
+}
+
+.prices__elements--div {
+  display: none;
+}
+
+.prices__elements--hash {
+  transform: translateX(calc(50% - 725px)) translateY(253px) rotate(15deg);
+  font-size: 60px;
+
+  @media (max-width: 1540px) {
+    display: none;
+  }
+}
+
+.prices__elements--slash {
+  transform: translateX(calc(50% + 660px)) translateY(83px) rotate(-23deg);
+  font-size: 40px;
+
+  @media (max-width: 1550px) {
+    transform: translateX(calc(50% + 560px)) translateY(83px) rotate(-23deg);
+  }
+
+  @media (max-width: 1330px) {
+    transform: translateX(calc(50% + 327px)) translateY(292px) rotate(-23deg);
+  }
+
+  @media (max-width: 1023px) {
+    display: none;
+  }
+}
+
+.prices__elements--div2 {
+  transform: translateX(calc(50% + 432px)) translateY(285px) rotate(20deg);
+  font-size: 38px;
+
+  @media (max-width: 1200px) {
+    font-size: 26px;
+    transform: translateX(calc(50% - 15px)) translateY(280px) rotate(23deg);
+  }
+  @media (max-width: 768px) {
+    display: none;
+  }
+}
+
+.prices__elements--braces2 {
+  transform: translateX(calc(50% - 840px)) translateY(55px) rotate(28deg);
+  font-size: 49px;
+
+  @media (max-width: 1700px) {
+    transform: translateX(calc(50% - 740px)) translateY(55px) rotate(28deg);
+  }
+
+  @media (max-width: 1500px) {
+    transform: translateX(calc(50% - 570px)) translateY(55px) rotate(28deg);
+  }
+
+  @media (max-width: 1300px) {
+    transform: translateX(calc(50% - 360px)) translateY(10px) rotate(28deg);
+    font-size: 34px;
+  }
+
+  @media (max-width: 1023px) {
+    display: none;
+  }
+}
+
+.prices__container {
+  padding-left: 130px;
+  padding-right: 125px;
+
+  @media (max-width: 1200px) {
+    padding-left: 40px;
+    padding-right: 35px;
+  }
+
+  @media (max-width: 768px) {
+    width: 100%;
+    min-width: 320px;
+    padding-left: 20px;
+  }
+}
+
+.prices__text {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 29px;
+  padding: 0;
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 60px;
+
+  & br {
+    display: none;
+
+    @media (max-width: 768px) {
+      display: block;
+    }
+  }
+
+  @media (max-width: 1200px) {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 29px;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 60px;
+  }
+
+  @media (max-width: 1023px) {
+    min-width: 280px;
+    margin-bottom: 31px;
+    padding: 0;
+    font-size: 28px;
+    line-height: 40px;
+  }
+}
+
+.prices__text--small {
+  text-indent: -16px;
+  padding-left: 16px;
+  padding-right: 100px;
+  font-size: 22.5px;    /*small 80% от родителя, в итоге будет 18px, как в макете*/
+  font-weight: 400;
+  line-height: 29px;
+
+  & br {
+    display: none;
+
+    @media (max-width: 768px) {
+      display: none;
+    }
+  }
+
+  @media (max-width: 1200px) {
+    padding-left: 14px;
+    font-size: 22.5px;
+    line-height: 28px;
+    letter-spacing: -0.1px;
+  }
+
+  @media (max-width: 1023px) {
+    min-width: 280px;
+    margin-bottom: 0;
+    padding-right: 5px;
+    padding-left: 14px;
+    font-size: 18.75px;
+    text-indent: -11px;
+    line-height: 29px;
+  }
+}
+
+

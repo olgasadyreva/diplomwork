@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="320" height="293.031" viewBox="0 0 320 293.031">
+  <defs>
+    <linearGradient id="Gradient1" gradientTransform="rotate(13)">
+      <stop class="stop1" offset="0%"/>
+      <stop class="stop2" offset="100%"/>
+    </linearGradient>
+    <style>
+      .cls-1 {
+        fill: url(#Gradient1);
+        <!-- fill: #6055c4; -->
+        fill-rule: evenodd;
+        filter: url(#filter);
+      }
+      .stop1 {
+        stop-color: #ff8f5a;
+      }
+      .stop2 {
+        stop-color: #ff2f96;
+      }
+    </style>
+    <filter id="filter" x="-58" y="0.969" width="470" height="390.031" filterUnits="userSpaceOnUse">
+      <feImage preserveAspectRatio="none" x="-58" y="0" width="470" height="390.031" result="image" xlink:href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iNDcwIiBoZWlnaHQ9IjM5MC4wMzEiIHZpZXdCb3g9IjAgMCA0NzAgMzkwLjAzMSI+CiAgPGRlZnM+CiAgICA8c3R5bGU+CiAgICAgIC5jbHMtMSB7CiAgICAgICAgb3BhY2l0eTogMDsKICAgICAgICBmaWxsOiB1cmwoI2xpbmVhci1ncmFkaWVudCk7CiAgICAgIH0KICAgIDwvc3R5bGU+CiAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImxpbmVhci1ncmFkaWVudCIgeDE9IjE4OS45NzciIHkxPSIzOTAuMDMxIiB4Mj0iMjgwLjAyMyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPgogICAgICA8c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiNmZjhmNWEiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIwLjk4NyIgc3RvcC1jb2xvcj0iI2ZmMmY5NiIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiNmZjJmOTYiLz4KICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgPC9kZWZzPgogIDxyZWN0IGNsYXNzPSJjbHMtMSIgd2lkdGg9IjQ3MCIgaGVpZ2h0PSIzOTAuMDMxIi8+Cjwvc3ZnPgo="/>
+      <feComposite result="composite" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <path id="pic5.svg" class="cls-1" d="M143.92,21.253C198.483-4.54,249.974-4.62,293.023,14.742c43.16,19.2,77.879,57.851,101.462,105.879,22.629,48.505,22.6,100.605,4.124,142.751-18.738,42.774-49.924,75.022-92.421,98.037-22.507,11.589-46.165,19.528-76.24,24.4-29.678,4.8-65.775,6.538-104.018,4.061-75.895-4.765-160.953-27.136-178.891-77.6-10.165-25.056-3.784-53.778,8.854-82.683,12.846-28.946,31.949-58.075,52.006-84.919,20.265-26.886,41.483-51.487,63.328-72.351,22.052-20.906,44.731-38.074,72.693-51.069h0Z" fill="url(#Gradient1)" transform="translate(0 -0.969)"/>
+</svg>

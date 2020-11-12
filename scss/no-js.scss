@@ -1,0 +1,73 @@
+@import 'variables';
+@import 'mixins';
+
+.no-js .header__top .container {
+  @media (max-width: 1200px) {
+      flex-wrap: wrap;
+  }
+}
+
+.no-js .header__button {
+  display: none;
+}
+
+.no-js .nav__list--header {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: space-between;
+
+  @media (max-width: 1200px) {
+      flex-wrap: wrap;
+      flex-basis: 100%;
+      font-size: 14px;
+      margin-bottom: 20px;
+  }
+}
+
+.no-js .nav__item:last-child {
+  margin-right: 0;
+  display: block;
+}
+
+.no-js .header__contacts  {
+  @media (max-width: 1200px) {
+      flex-basis: 100%;
+  }
+}
+
+.no-js .modal {
+  position: relative;
+  top: 0;
+  left: 0;
+  transform: none;
+  margin: 20px auto;
+  display: block;
+  opacity: 1;
+  visibility: visible;
+}
+
+.no-js .modal--call {
+  display: none;
+}
+
+.no-js .modal--success {
+  display: none;
+}
+
+.no-js .modal-overlay {
+  display: none;
+}
+
+.no-js .slider__controls {
+  display: none;
+}
+
+.no-js .slider__pager {
+  display: none;
+}
+
+.no-js .main {
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}

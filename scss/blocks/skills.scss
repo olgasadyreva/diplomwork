@@ -1,0 +1,214 @@
+@import '../variables';
+@import '../mixins';
+
+.main {
+  @media (max-width: 768px) {
+    min-width: 320px;
+    margin: 0 auto;
+    padding-top: 46px;
+    padding-bottom: 23px;
+  }
+}
+
+.skills {
+  padding: 105px 0;
+
+  @media (max-width: 1200px) {
+    padding-top: 103px;
+  }
+
+  @media (max-width: 768px) {
+    padding-top: 0;
+    padding-bottom: 22px;
+  }
+}
+
+.title {
+  margin: 0;
+  font-size: 54px;
+  font-weight: 700;
+  text-align: center;
+
+  @media (max-width: 1023px) {
+    font-size: 44px;
+  }
+
+  @media (max-width: 768px) {
+    font-size: 30px;
+    line-height: 30px;
+  }
+}
+
+.skills__title {
+  margin-bottom: 105px;
+
+  @media (max-width: 1200px) {
+    margin-bottom: 104px;
+  }
+
+  @media (max-width: 1023px) {
+    margin-bottom: 90px;
+  }
+
+  @media (max-width: 768px) {
+    padding-top: 0;
+    margin-bottom: 20px;
+  }
+}
+
+.skills-list {
+  @include flex-center($wrap: wrap);
+  @include reset;
+  width: 1170px;
+  margin: 0 auto;
+  margin-bottom: 68px;
+  list-style: none;
+  align-items: baseline;
+
+  @media (max-width: 1200px) {
+    width: 700px;
+    margin-bottom: 92px;
+  }
+
+  @media (max-width: 768px) {
+    justify-content: flex-start;
+    width: 280px;
+    margin-bottom: 34px;
+    padding-top: 26px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+.skills-list__item {
+  margin-bottom: 25px;
+  padding-top: 91px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: center;
+  color: $grey-text;
+  background-repeat: no-repeat;
+  background-position: center top;
+  flex-basis: 22%;
+
+  @media (max-width: 1200px) {
+    flex-shrink: 0;
+    flex-basis: 44.8%;
+    margin-bottom: 77px;
+    margin-right: 0;
+    padding-top: 93px;
+    padding-right: 5px;
+  }
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    flex-basis: 100%;
+    margin-bottom: 35px;
+    padding-top: 55px;
+    font-size: 16px;
+    line-height: 24px;
+    background-size: 61px 56px;
+  }
+
+  &:last-child {
+    margin-right: 0;
+  }
+
+  &:nth-last-child(-n+2) {
+    @media (max-width: 1200px) {
+      margin-bottom: 0;
+    }
+  }
+
+  &:nth-last-child(2) {
+    @media (max-width: 1023px) {
+      margin-bottom: 38px;
+    }
+  }
+
+  &--landing {
+    background-image: url("../img/icons/tools.svg");
+    background-size: 80px 74px;
+
+    @media (max-width: 1023px) {
+      background-size: 61px 56px;
+    }
+    @media (max-width: 768px) {
+      flex-basis: 100%;
+    }
+  }
+
+  &--adaptive {
+    flex-basis: 24%;
+    background-image: url("../img/icons/responsive.svg");
+    background-size: 79px 74px;
+
+    @media (max-width: 1200px) {
+      flex-basis: 44.8%;
+    }
+    @media (max-width: 1023px) {
+      background-size: 61px 56px;
+    }
+    @media (max-width: 768px) {
+      flex-basis: 100%;
+    }
+  }
+
+  &--frontend {
+    flex-basis: 18%;
+    background-image: url("../img/icons/programming.svg");
+    background-size: 74px 74px;
+
+    @media (max-width: 1200px) {
+      flex-basis: 44.8%;
+    }
+    @media (max-width: 1023px) {
+      background-size: 61px 56px;
+    }
+    @media (max-width: 768px) {
+      flex-basis: 100%;
+    }
+  }
+
+  &--edit {
+    background-image: url("../img/icons/coding.svg");
+    background-size: 74px 74px;
+
+    @media (max-width: 1023px) {
+      background-size: 61px 56px;
+    }
+    @media (max-width: 768px) {
+      flex-basis: 100%;
+    }
+  }
+}
+
+.skills-list__text {
+  @include reset;
+
+  @media (max-width: 1200px) {
+    margin-bottom: auto;
+  }
+
+  @media (max-width: 1023px) {
+    margin: 0;
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+}
+
+.skills__btn {
+  margin: 0 auto;
+  padding: 20px 60px;
+
+  @media (max-width: 1200px) {
+    padding: 24px 84px;
+  }
+
+  @media (max-width: 1023px) {
+    padding: 18px 72px;
+    font-size: $font-size;
+    margin-bottom: 28px;
+  }
+}
